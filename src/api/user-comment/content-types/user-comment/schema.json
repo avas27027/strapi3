@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_comments",
+  "info": {
+    "singularName": "user-comment",
+    "pluralName": "user-comments",
+    "displayName": "UserComment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "star": {
+      "type": "integer",
+      "max": 5,
+      "min": 0
+    }
+  }
+}
