@@ -15,8 +15,8 @@
     "api": {
       "type": "enumeration",
       "enum": [
-        "size-refs",
-        "colors-refs"
+        "/api/size-refs",
+        "/api/colors-refs"
       ]
     }
   }
