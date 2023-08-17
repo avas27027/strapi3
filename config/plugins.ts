@@ -1,5 +1,6 @@
 import * as data from "../strapi-test-b1d0d-firebase-adminsdk-238fk-b7674cea58.json";
 module.exports = ({ env }) => ({
+    /*
     meilisearch: {
         config: {
             // Your meili host
@@ -7,7 +8,7 @@ module.exports = ({ env }) => ({
             // Your master key or private key
             apiKey: "4bfa3dd77b4454e7596e2e5b5fd1cc27d5ee0c29",
         }
-    },
+    },*/
     // ...
     upload: {
         config: {
