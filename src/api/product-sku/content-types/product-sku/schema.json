@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_skus",
+  "info": {
+    "singularName": "product-sku",
+    "pluralName": "product-skus",
+    "displayName": "ProductSKU"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SKU": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
